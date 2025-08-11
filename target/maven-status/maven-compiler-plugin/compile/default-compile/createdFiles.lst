@@ -1,0 +1,9 @@
+com\yourname\pillars\game\PillarGenerator.class
+com\yourname\pillars\PillarsPlugin.class
+com\yourname\pillars\commands\PillarsCommand.class
+com\yourname\pillars\game\ItemDropScheduler.class
+com\yourname\pillars\game\GameManager.class
+com\yourname\pillars\game\LocationManager.class
+com\yourname\pillars\listeners\JoinQuitListener.class
+com\yourname\pillars\listeners\PlayerDeathListener.class
+com\yourname\pillars\utils\ItemUtils.class

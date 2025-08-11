@@ -1,0 +1,46 @@
+# Pillar generation settings
+pillar:
+  height: 200           # Height of the pillar base
+  spacing: 10           # Distance between pillars
+  block: STONE          # Block type used for pillars and platforms
+
+# Barrier block for spectator lobby (use GLASS for Bedrock visibility)
+barrier_block: GLASS
+
+# Item pool for timed drops
+items:
+  # Weapons
+  - WOODEN_SWORD
+  - STONE_SWORD
+  - IRON_SWORD
+  - DIAMOND_SWORD
+  - TRIDENT
+  - BOW
+  - CROSSBOW
+
+  # Utility & Combat
+  - COBBLESTONE:10
+  - TNT:5
+  - LAVA_BUCKET
+  - WATER_BUCKET
+  - SNOWBALL:8
+  - ENDER_PEARL:2
+  - SHIELD
+
+  # Potions (auto-generated with correct effects)
+  - POTION:SPEED
+  - POTION:STRENGTH
+  - POTION:REGEN
+  - POTION:INVISIBILITY
+  - POTION:FIRE_RESISTANCE
+
+  # Building
+  - WOOL:10
+  - LADDER:8
+  - SLIME_BLOCK:4
+
+# Loot for center chest on middle pillar
+center_loot:
+  - ENCHANTED_GOLDEN_APPLE
+  - NETHERITE_SWORD
+  - DIAMOND_CHESTPLATE

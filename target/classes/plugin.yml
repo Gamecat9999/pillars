@@ -1,0 +1,8 @@
+name: PillarsPlugin
+main: com.yourname.pillars.PillarsPlugin
+version: 1.0
+api-version: 1.20
+commands:
+  pillars:
+    description: Start the Pillars game
+    usage: /pillars
